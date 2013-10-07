@@ -2,6 +2,7 @@
   "name": "ink_project",
   "version": "0.0.0",
   "dependencies": {
+    "ink": "git@github.com:sapo/Ink#>=2.2.0",
     <% if (includeInkJS) { %>
       "inkjs": "git@github.com:sapo/Ink.js#>=2.2.0",
     <% } %>
