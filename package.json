@@ -1,9 +1,11 @@
 {
   "name": "generator-ink",
-  "version": "0.0.0",
-  "description": "A generator for Yeoman",
+  "version": "0.0.1",
+  "description": "A generator for Yeoman that sets up an Ink project template",
   "keywords": [
-    "yeoman-generator"
+    "yeoman-generator",
+    "ink",
+    "inkjs"
   ],
   "homepage": "https://github.com/rogeriopvl/generator-ink",
   "bugs": "https://github.com/rogeriopvl/generator-ink/issues",
