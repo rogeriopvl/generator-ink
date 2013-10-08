@@ -22,6 +22,10 @@ describe('ink generator', function () {
   it('creates expected files', function (done) {
     var expected = [
       // add files you expect to exist here.
+      'package.json',
+      'bower.json',
+      'app',
+      'app/index.html',
       '.jshintrc',
       '.editorconfig'
     ];
