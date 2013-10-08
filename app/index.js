@@ -22,12 +22,14 @@ InkGenerator.prototype.askFor = function askFor() {
   // have Yeoman greet the user.
   console.log(this.yeoman);
 
-  var prompts = [{
-    type: 'confirm',
-    name: 'includeInkJS',
-    message: 'Would you like to import Ink.js?',
-    default: true
-  }];
+  var prompts = [
+    // {
+    //   type: 'confirm',
+    //   name: 'includeX',
+    //   message: 'Would you like to import X?',
+    //   default: true
+    // }
+  ];
 
   this.prompt(prompts, function (props) {
     this.includeInkJS = props.includeInkJS;
@@ -38,8 +40,9 @@ InkGenerator.prototype.askFor = function askFor() {
 
 InkGenerator.prototype.app = function app() {
   this.mkdir('app');
-  this.mkdir('app/templates');
+  // this.mkdir('app/templates');
 
+  this.copy('_index.html', 'app/index.html');
   this.copy('_package.json', 'package.json');
   this.copy('_bower.json', 'bower.json');
 };
