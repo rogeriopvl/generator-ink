@@ -1,7 +1,7 @@
 {
   "name": "generator-ink",
-  "version": "0.0.1",
-  "description": "A generator for Yeoman that sets up an Ink project template",
+  "version": "0.0.2",
+  "description": "A generator for Yeoman that sets up an Ink (http://ink.sapo.pt) project template",
   "keywords": [
     "yeoman-generator",
     "ink",
