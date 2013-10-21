@@ -19,8 +19,12 @@ util.inherits(InkGenerator, yeoman.generators.Base);
 InkGenerator.prototype.askFor = function askFor() {
   var cb = this.async();
 
-  // have Yeoman greet the user.
-  console.log(this.yeoman);
+  console.log(" _____       _");
+  console.log("|_   _|     | |");
+  console.log("  | |  _ __ | | __");
+  console.log("  | | | '_ \\| |/ /");
+  console.log(" _| |_| | | |   <");
+  console.log("|_____|_| |_|_|\\_\\ ");
 
   var prompts = [
     {
