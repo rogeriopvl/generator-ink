@@ -35,47 +35,36 @@
 
           <p>A generator for <a href="http://yeoman.io">Yeoman</a>.</p>
 
-          <h2>
-              <a name="getting-started" class="anchor" href="#getting-started"><span class="octicon octicon-link"></span></a>Getting Started</h2>
+          <h2>Getting Started</h2>
 
-          <h3>
-              <a name="what-is-yeoman" class="anchor" href="#what-is-yeoman"><span class="octicon octicon-link"></span></a>What is Yeoman?</h3>
-
-          <p>Trick question. It's not a thing. It's this guy:</p>
-
-          <p><img src="http://i.imgur.com/JHaAlBJ.png" alt=""></p>
-
-          <p>Basically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.</p>
-
-          <p>Not every new computer comes with a Yeoman pre-installed. He lives in the <a href="https://npmjs.org">npm</a> package repository. You only have to ask for him once, then he packs up and moves into your hard drive. <em>Make sure you clean up, he likes new and shiny things.</em></p>
-
-          <pre><code>$ npm install -g yo
-          </code></pre>
-
-          <h3>
-              <a name="yeoman-generators" class="anchor" href="#yeoman-generators"><span class="octicon octicon-link"></span></a>Yeoman Generators</h3>
-
-          <p>Yeoman travels light. He didn't pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.</p>
+          <h3>Install</h3>
 
           <p>To install generator-ink from npm, run:</p>
 
-          <pre><code>$ npm install -g generator-ink
-          </code></pre>
+          <pre><code>$ npm install -g generator-ink </code></pre>
 
           <p>Finally, initiate the generator:</p>
 
-          <pre><code>$ yo ink
-          </code></pre>
+          <pre><code>$ yo ink </code></pre>
 
-          <h3>
-              <a name="getting-to-know-yeoman" class="anchor" href="#getting-to-know-yeoman"><span class="octicon octicon-link"></span></a>Getting To Know Yeoman</h3>
+          <h3>First Run</h3>
 
-          <p>Yeoman has a heart of gold. He's a person with feelings and opinions, but he's very easy to work with. If you think he's too opinionated, he can be easily convinced.</p>
+          <p>On every run, <code>generator-ink</code> asks you for a main layout for your ink site. Just choose the one you like the most and hack away!</p>
 
-          <p>If you'd like to get to know Yeoman better and meet some of his friends, <a href="http://gruntjs.com">Grunt</a> and <a href="http://bower.io">Bower</a>, check out the complete <a href="https://github.com/yeoman/yeoman/wiki/Getting-Started">Getting Started Guide</a>.</p>
+          <h3>Sub Generators</h3>
 
-          <h2>
-              <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
+          <p>After your project is created you can continue to create more pages using the available layouts. For that just use the following terminal command:</p>
+
+          <pre><code>$ yo ink:page layout_name [file_name]</code></pre>
+
+          <p>You can find the available <code>layout_names</code> in the section below.</p>
+          <p>If you don't specify a <code>file_name</code>, <code>generator-ink</code> will create one with a timestamp just to avoid overwriting any other files you already have in your project.</p>
+
+          <h2>Available Layouts</h2>
+
+          <p>Soon...</p>
+
+          <a name="license" class="anchor" href="#license"><span class="octicon octicon-link"></span></a>License</h2>
 
           <p><a href="http://en.wikipedia.org/wiki/MIT_License">MIT License</a></p>
       </section>
@@ -86,17 +75,16 @@
       </footer>
 
       <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+              </script>
+              <script type="text/javascript">
+        try {
+            var pageTracker = _gat._getTracker("UA-45049751-1");
+            pageTracker._trackPageview();
+        } catch(err) {}
       </script>
-      <script type="text/javascript">
-try {
-    var pageTracker = _gat._getTracker("UA-45049751-1");
-    pageTracker._trackPageview();
-} catch(err) {}
-      </script>
-
   </div>
     </div>
-  </body>
+    </body>
 </html>
