@@ -22,12 +22,16 @@ describe('ink generator', function () {
   it('creates expected files', function (done) {
     var expected = [
       // add files you expect to exist here.
+      'package.json',
+      'bower.json',
+      'app',
+      'app/index.html',
       '.jshintrc',
       '.editorconfig'
     ];
 
     helpers.mockPrompt(this.app, {
-      'someOption': true
+      'pageLayout': 'hero'
     });
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
