@@ -25,6 +25,7 @@ InkGenerator.prototype.askFor = function askFor() {
   console.log("  | | | '_ \\| |/ /");
   console.log(" _| |_| | | |   <");
   console.log("|_____|_| |_|_|\\_\\ ");
+  console.log("");
 
   var prompts = [
     {
