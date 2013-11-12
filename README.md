@@ -1,3 +1,6 @@
+[![NPM banner](https://nodei.co/npm/generator-ink.png?downloads=true&stars=true)]
+[![NPM downloads](https://nodei.co/npm-dl/generator-ink.png)]
+
 # generator-ink [![Build Status](https://secure.travis-ci.org/rogeriopvl/generator-ink.png?branch=master)](https://travis-ci.org/rogeriopvl/generator-ink)
 
 A generator for [Yeoman](http://yeoman.io) for projects using the awesome Ink framework [http://ink.sapo.pt](http://ink.sapo.pt).
