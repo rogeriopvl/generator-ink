@@ -9,6 +9,7 @@ var InkGenerator = module.exports = function InkGenerator(args, options, config)
 
   this.on('end', function () {
     this.installDependencies({ skipInstall: options['skip-install'] });
+    this.config.save();
   });
 
   this.pkg = JSON.parse(this.readFileAsString(path.join(__dirname, '../package.json')));
