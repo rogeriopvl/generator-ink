@@ -24,7 +24,7 @@ $ yo ink
 
 After running this command, `generator-ink` will ask you to choose a layout. You can see available layouts (with screenshots) [here](http://rogeriopvl.github.io/generator-ink).
 
-![generator-ink screenshot](/screenshots/generator-ink.png)
+![generator-ink screenshot](/screenshots/generator-ink.png?raw=true)
 
 ### Subgenerator
 
