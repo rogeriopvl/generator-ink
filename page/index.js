@@ -17,5 +17,5 @@ PageGenerator.prototype.files = function files() {
   var prefix = Math.floor(new Date().getTime() / 1000),
       newName = this.fileName || prefix + '_' + this.name + '.html';
 
-  this.copy('_layouts/' + this.name + '.html', 'app/' + newName);
+  this.copy('../../app/templates/_layouts/' + this.name + '.html', 'app/' + newName);
 };
