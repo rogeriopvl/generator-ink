@@ -31,7 +31,7 @@ describe('ink generator', function () {
     ];
 
     helpers.mockPrompt(this.app, {
-      'pageLayout': 'hero'
+      'pageLayout': 'quick-start'
     });
     this.app.options['skip-install'] = true;
     this.app.run({}, function () {
