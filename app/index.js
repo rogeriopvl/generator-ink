@@ -34,20 +34,18 @@ InkGenerator.prototype.askFor = function askFor() {
       name: 'pageLayout',
       message: 'What starting layout would you like for your page?',
       choices: [
-        { name: 'Hero (default)', value: 'hero' },
+        { name: 'Quick Start (default)', value: 'quick-start' },
         { name: '3 Boxes', value: '3-boxes' },
         { name: '4 Boxes', value: '4-boxes' },
         { name: 'Advanced Grid', value: 'advanced-grid' },
         { name: 'Article Page', value: 'article-page' },
-        { name: 'Empty Page', value: 'empty-page' },
-        { name: 'Fixed Sidebar', value: 'fixed-sidebar' },
+        { name: 'Carousel', value: 'carousel' },
+        { name: 'Modal Gallery', value: 'modal-gallery' },
         { name: 'Fixed Width Column', value: 'fixed-width-column' },
         { name: 'Forms', value: 'forms' },
-        { name: 'My Page', value: 'my-page' },
-        { name: 'Regular Grid', value: 'regular-grid' },
         { name: 'Sticky Footer', value: 'sticky-footer' }
       ],
-      default: 'hero'
+      default: 0
     }
   ];
 
