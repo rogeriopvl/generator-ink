@@ -2,7 +2,7 @@
   "name": "ink_project",
   "version": "0.0.0",
   "dependencies": {
-    "Ink": "~3.0.0"
+    "Ink": "~3.1.4"
   },
   "devDependencies": {}
 }
